@@ -42,3 +42,13 @@ SWITCH(
     [Correlation Rainfall vs Rice] = 0, "No Relationship",
     [Correlation Rainfall vs Rice] < 0, "Negative Relationship"
 )
+7. Crop_Dim = 
+DATATABLE(
+    "Crop", STRING,
+    {
+        {"Rice"},
+        {"Wheat"},
+        {"Soybean"},
+        {"Barley"}
+    }
+)
